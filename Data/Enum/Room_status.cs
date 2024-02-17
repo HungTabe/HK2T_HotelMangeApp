@@ -2,6 +2,6 @@
 {
     public enum Room_status
     {
-        Active = 0, Inactive = 1
+        ACTIVE = 0, INACTIVE = 1
     }
 }

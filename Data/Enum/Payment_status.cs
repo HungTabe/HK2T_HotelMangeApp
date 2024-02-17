@@ -2,7 +2,7 @@
 {
     public enum Payment_status
     {
-        Prepaid = 0, Postpaid = 1, Debit = 2
+        PREPAY = 0, POSTPAY = 1, DEBIT = 2
 
     }
 }

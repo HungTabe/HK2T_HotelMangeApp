@@ -2,6 +2,6 @@
 {
     public enum Position
     {
-        Customer = 1, Admin = 2, Housekeeper = 3, Receptionist = 4
+        CUSTOMER = 1, ADMIN = 2, HOUSEKEEPER = 3, RECEPTIONIST = 4
     }
 }

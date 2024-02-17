@@ -4,15 +4,15 @@ namespace HK2TProject_HotelManage_Server.Models
 {
     public class Payments
     {
-        public int Id { get; set; }
-        public int Reservation_id { get; set; }
-        public int Amount { get; set; }
-        public string Payment_method { get; set; }
+        public int id { get; set; }
+        public int reservation_id { get; set; }
+        public int amount { get; set; }
+        public string payment_method { get; set; }
 
         // Status : Prepaid = 0 ; Postpaid = 1 ; Debit = 2
-        public Payment_status Payment_status { get; set; }
-        public DateTime Paid_at { get; set; }
-        public DateTime Updated_at { get; set; }
+        public Payment_status payment_status { get; set; }
+        public DateTime paid_at { get; set; }
+        public DateTime updated_at { get; set; }
 
 
     }

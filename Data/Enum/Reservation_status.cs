@@ -2,6 +2,6 @@
 {
     public enum Reservation_status
     {
-        Open = 0, In_progress = 1, End = 2, Cancel = 3
+        OPEN = 0, INPROGRESS = 1, END = 2, CANCEL = 3
     }
 }

@@ -2,7 +2,7 @@
 {
     public class Image_type_room
     {
-        public int Id { get; set; }
-        public string Url { get; set; }
+        public int id { get; set; }
+        public string url { get; set; }
     }
 }
