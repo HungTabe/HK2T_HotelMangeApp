@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Tag6g7WYfvcbk5HPPR56DNK0Lwp++IA92UW1oqNZPUY8JDW5Dfp2JnDGpBP6uXH/50YYDHmsITF+ha5OB1OxVQ==",
+  "dgSpecHash": "mYGUV3f4/cHhrkB7paF3BvyR8EGAUak/dwt3v0XlTLfjYJVc0OH9Koz8K/dkguEpu2JFUhRGVEZfZuxSVXdL3g==",
   "success": true,
-  "projectFilePath": "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2TProject_HotelManage_Server\\HK2TProject_HotelManage_Server.csproj",
+  "projectFilePath": "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2T_HotelManageApp\\HK2TProject_HotelManage_Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trand\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\trand\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

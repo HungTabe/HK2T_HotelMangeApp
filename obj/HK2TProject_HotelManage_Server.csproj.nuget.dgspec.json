@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2TProject_HotelManage_Server\\HK2TProject_HotelManage_Server.csproj": {}
+    "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2T_HotelManageApp\\HK2TProject_HotelManage_Server.csproj": {}
   },
   "projects": {
-    "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2TProject_HotelManage_Server\\HK2TProject_HotelManage_Server.csproj": {
+    "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2T_HotelManageApp\\HK2TProject_HotelManage_Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2TProject_HotelManage_Server\\HK2TProject_HotelManage_Server.csproj",
+        "projectUniqueName": "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2T_HotelManageApp\\HK2TProject_HotelManage_Server.csproj",
         "projectName": "HK2TProject_HotelManage_Server",
-        "projectPath": "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2TProject_HotelManage_Server\\HK2TProject_HotelManage_Server.csproj",
+        "projectPath": "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2T_HotelManageApp\\HK2TProject_HotelManage_Server.csproj",
         "packagesPath": "C:\\Users\\trand\\.nuget\\packages\\",
-        "outputPath": "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2TProject_HotelManage_Server\\obj\\",
+        "outputPath": "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2T_HotelManageApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\trand\\AppData\\Roaming\\NuGet\\NuGet.Config",
