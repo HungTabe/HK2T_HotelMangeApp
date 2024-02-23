@@ -13,7 +13,7 @@ namespace HK2TProject_HotelManage_Server.Models
         public int amenity_id { get; set; }
 
         // Type_rooms_status : Active = 0 , Inactive = 1
-        public Type_rooms_status type_rooms_status { get; set; }
+        public StatusCommon type_rooms_status { get; set; }
         public DateTime updated_at { get; set; }
         public int image_id {  get; set; }
         // Image tồn tại 1 bảng chứa riêng

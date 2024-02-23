@@ -11,7 +11,7 @@ namespace HK2TProject_HotelManage_Server.Models
         public string? description { get; set; }
 
         // Status : Active = 0 , Inactive = 1
-        public Room_status room_status { get; set; }
+        public StatusCommon room_status { get; set; }
         public DateTime updated_at { get; set; }
 
 
