@@ -1,0 +1,13 @@
+.logo {
+  display: none;
+  .logoImage {
+    max-width: 162px;
+    max-height: 55px;
+  }
+}
+
+@media (min-width: 960px) {
+  .logo {
+    display: flex;
+  }
+}
