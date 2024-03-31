@@ -12,7 +12,7 @@ import MenuItem from "@mui/material/MenuItem";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import LoginIcon from "@mui/icons-material/Login";
 import logo from "../../../assets/images/logo.png";
-import "../styles/Navbar.scss";
+import styles from "../styles/Navbar.module.scss";
 
 const pages = ["Home", "About", "Contact"] as const;
 
@@ -28,22 +28,15 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
+    <AppBar position="fixed" color="inherit">
+      <Container maxWidth="lg">
         <Toolbar disableGutters>
-          <div className="bl_logo">
-            <img src={logo} alt=""/>
+          <div className={styles.bl_logo}>
+            <img src={logo} alt="" />
           </div>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
-            <IconButton 
-              size="large" 
-              aria-label="account of current user" 
-              aria-controls="menu-appbar" 
-              aria-haspopup="true" 
-              onClick={handleOpenNavMenu} 
-              color="inherit"
-            >
+            <IconButton size="large" aria-label="account of current user" aria-controls="menu-appbar" aria-haspopup="true" onClick={handleOpenNavMenu} color="inherit">
               <MenuIcon />
             </IconButton>
             <Menu
@@ -74,7 +67,7 @@ function Navbar() {
 
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
-              <Button key={page} onClick={handleCloseNavMenu} sx={{ my: 2, color: "white", display: "block" }}>
+              <Button key={page} onClick={handleCloseNavMenu} sx={{ my: 2, color: "", display: "block" }}>
                 {page}
               </Button>
             ))}
@@ -82,12 +75,10 @@ function Navbar() {
 
           <Box sx={{ display: "flex" }}>
             <Box sx={{ display: "flex", pr: "10px", cursor: "pointer" }}>
-              <AccountCircleIcon />
-              <Typography sx={{ mx: "5px" }}>Log In</Typography>
+              <Button startIcon={<AccountCircleIcon />}>Log In </Button>
             </Box>
             <Box sx={{ display: "flex", pr: "10px", cursor: "pointer" }}>
-              <LoginIcon />
-              <Typography sx={{ mx: "5px" }}>Sign Up</Typography>
+              <Button startIcon={<LoginIcon />}>Sign Up </Button>
             </Box>
           </Box>
         </Toolbar>
