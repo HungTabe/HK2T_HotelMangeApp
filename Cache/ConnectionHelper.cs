@@ -11,7 +11,11 @@ namespace HK2TProject_HotelManage_Server.Cache
                 return ConnectionMultiplexer.Connect(ConfigurationManager.AppSetting["RedisURL"]);
             });
         }
+
+
         private static Lazy<ConnectionMultiplexer> lazyConnection;
+
+
         public static ConnectionMultiplexer Connection
         {
             get

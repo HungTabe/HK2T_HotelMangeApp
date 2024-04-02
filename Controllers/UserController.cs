@@ -15,7 +15,7 @@ namespace HK2TProject_HotelManage_Server.Controllers
             _supabaseService = supabaseService;
         }
 
-        [HttpGet]
+        [HttpGet("GetUsersList")]
         public async Task<IActionResult> Get()
         {
             var users = await _supabaseService.GetUsers();

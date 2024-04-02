@@ -7,8 +7,6 @@ namespace HK2TProject_HotelManage_Server.Services.Users
     // Lớp UserService thực thi giao diện IUserService, cung cấp các phương thức để tương tác với người dùng trong cơ sở dữ liệu
     public class UserService : IUserService
     {
-
-
         // Biến để lưu trữ context của CSDL
         private readonly SupabaseService _supabaseService;
 

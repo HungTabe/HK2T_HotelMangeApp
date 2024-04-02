@@ -17,6 +17,7 @@ namespace HK2TProject_HotelManage_Server.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
+        
         private readonly IUserService _userService;
 
         public AccountController(IUserService userService)
@@ -24,41 +25,10 @@ namespace HK2TProject_HotelManage_Server.Controllers
             _userService = userService;
         }
 
-        [HttpPost("loginDEMO")]
-        public async Task<IActionResult> Login([FromBody] LoginUser loginUser)
-        {
-            try
-            {
-                if (ModelState.IsValid)
-                {
-                    var user = await _userService.Validate(loginUser);
-                    if (user != null)
-                    {
-                        // Đăng nhập thành công, trả về thông tin người dùng hoặc token JWT
-                        return Ok(new { message = "Login successful", user = user });
-                    }
-                    else
-                    {
-                        // Sai thông tin đăng nhập
-                        return BadRequest(new { message = "Invalid email or password" });
-                    }
-                }
-                else
-                {
-                    // Dữ liệu đầu vào không hợp lệ
-                    return BadRequest(ModelState);
-                }
-            }
-            catch (Exception ex)
-            {
-                // Xử lý lỗi nếu cần
-                return StatusCode(500, new { error = "Internal server error" });
-            }
-        }
+     
 
-
-        [HttpPost("loginMAIN")]
-        public async Task<IActionResult> LoginMain([FromBody] LoginUser user)
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginUser user)
         {
             if (ModelState.IsValid)
             {
@@ -74,11 +44,12 @@ namespace HK2TProject_HotelManage_Server.Controllers
                     var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(ConfigurationManager.AppSetting["JWT:Secret"]));
 
                     var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
+
                     var tokeOptions = new JwtSecurityToken(
                         issuer: ConfigurationManager.AppSetting["JWT:ValidIssuer"],
                         audience: ConfigurationManager.AppSetting["JWT:ValidAudience"],
                         claims: claims,
-                        expires: DateTime.Now.AddMinutes(6),
+                        expires: DateTime.Now.AddMinutes(30),
                         signingCredentials: signinCredentials
                     );
                     var tokenString = new JwtSecurityTokenHandler().WriteToken(tokeOptions);

@@ -10,10 +10,15 @@ namespace HK2TProject_HotelManage_Server.Cache
         {
             ConfigureRedis();
         }
+
+
+
         private void ConfigureRedis()
         {
             _db = ConnectionHelper.Connection.GetDatabase();
         }
+
+
         public T GetData<T>(string key)
         {
             var value = _db.StringGet(key);
@@ -23,6 +28,8 @@ namespace HK2TProject_HotelManage_Server.Cache
             }
             return default;
         }
+
+
         public bool SetData<T>(string key, T value, DateTimeOffset expirationTime)
         {
             TimeSpan expiryTime = expirationTime.DateTime.Subtract(DateTime.Now);

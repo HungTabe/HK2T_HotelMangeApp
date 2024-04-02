@@ -68,26 +68,8 @@ internal class Program
                             });
         });
 
-
         builder.Services.AddScoped<ICacheService, CacheService>();
-        //builder.Services.AddAuthentication(opt =>
-        //{
-        //    opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-        //    opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-        //})
-        //    .AddJwtBearer(options =>
-        //    {
-        //        options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-        //        {
-        //            ValidateIssuer = true,
-        //            ValidateAudience = true,
-        //            ValidateLifetime = true,
-        //            ValidateIssuerSigningKey = true,
-        //            ValidIssuer = ConfigurationManager.AppSetting["JWT:ValidIssuer"],
-        //            ValidAudience = ConfigurationManager.AppSetting["JWT:ValidAudience"],
-        //            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(ConfigurationManager.AppSetting["JWT:Secret"]))
-        //        };
-        //    });
+       
         builder.Services.AddAuthentication(opt =>
         {
             opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -108,8 +90,6 @@ internal class Program
             };
         });
 
-
-
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -119,13 +99,10 @@ internal class Program
             app.UseSwaggerUI();
         }
 
-
-
         app.UseHttpsRedirection();
         app.UseRouting();
         app.UseAuthentication();
         app.UseAuthorization();
-
 
         app.UseEndpoints(endpoints =>
         {
@@ -134,7 +111,6 @@ internal class Program
 
         app.Run();
     }
-
 
     public void ConfigureServices(IServiceCollection services)
     {

@@ -3,6 +3,8 @@ using System.Threading.Tasks;
 using HK2TProject_HotelManage_Server.Models;
 using Newtonsoft.Json;
 using Supabase.Gotrue;
+using Microsoft.Extensions.Configuration; // Thêm namespace này
+
 
 public class SupabaseService
 {
@@ -13,6 +15,8 @@ public class SupabaseService
     public SupabaseService(HttpClient httpClient)
     {
         _httpClient = httpClient;
+        
+
         _httpClient.DefaultRequestHeaders.Add("apikey", _apiKey);
         _httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {_apiKey}");
     }

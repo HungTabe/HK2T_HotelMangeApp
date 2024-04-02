@@ -56,3 +56,14 @@ D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\Micr
 D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
 D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\StackExchange.Redis.dll
+D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\VS Solution Repo\HK2T_HotelManageApp\HK2T_HotelMangeApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
