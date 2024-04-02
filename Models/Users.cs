@@ -14,7 +14,7 @@ namespace HK2TProject_HotelManage_Server.Models
         public string CardID { get; set; }
         public string phone { get; set; }
         public string? email { get; set; }
-        public DateOnly birthDay { get; set; }
+        public DateTime  birthDay { get; set; }
         public string gender { get; set; }
 
         // Position : Customer = 1, Admin = 2, Housekeeper = 3, Receptionist = 4

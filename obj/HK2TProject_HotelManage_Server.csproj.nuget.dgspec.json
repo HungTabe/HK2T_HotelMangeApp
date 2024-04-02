@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2T_HotelManageApp\\HK2TProject_HotelManage_Server.csproj": {}
+    "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\HK2TProject_HotelManage_Server.csproj": {}
   },
   "projects": {
-    "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2T_HotelManageApp\\HK2TProject_HotelManage_Server.csproj": {
+    "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\HK2TProject_HotelManage_Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2T_HotelManageApp\\HK2TProject_HotelManage_Server.csproj",
+        "projectUniqueName": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\HK2TProject_HotelManage_Server.csproj",
         "projectName": "HK2TProject_HotelManage_Server",
-        "projectPath": "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2T_HotelManageApp\\HK2TProject_HotelManage_Server.csproj",
+        "projectPath": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\HK2TProject_HotelManage_Server.csproj",
         "packagesPath": "C:\\Users\\trand\\.nuget\\packages\\",
-        "outputPath": "D:\\dot net at SP24\\dot net project lean 1\\ASP PROJECT\\HK2T_HotelManageApp\\obj\\",
+        "outputPath": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\trand\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,19 +34,32 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.7.33, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
             },
             "supabase-csharp": {
               "target": "Package",
-              "version": "[0.15.0, )"
+              "version": "[0.16.1, )"
             }
           },
           "imports": [
@@ -68,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

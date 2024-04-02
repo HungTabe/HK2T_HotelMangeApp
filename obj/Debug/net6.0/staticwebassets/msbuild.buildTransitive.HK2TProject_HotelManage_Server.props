@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\HK2TProject_HotelManage_Server.props" />
+</Project>
