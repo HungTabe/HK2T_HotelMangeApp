@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\models\\authenticate\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:models\\authenticate\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\cache\\connectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:cache\\connectionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\cache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:cache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\services\\supabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:services\\supabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\services\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:services\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\configurationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:configurationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\cache\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:cache\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\services\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:services\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|d:\\vs solution repo\\hk2t_hotelmanageapp\\hk2t_hotelmangeapp\\hk2tproject_hotelmanage_server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{229A9703-3184-4793-800C-1ED77E2878F5}|HK2TProject_HotelManage_Server.csproj|solutionrelative:hk2tproject_hotelmanage_server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginUser.cs",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Models\\Authenticate\\LoginUser.cs",
+              "RelativeDocumentMoniker": "Models\\Authenticate\\LoginUser.cs",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Models\\Authenticate\\LoginUser.cs",
+              "RelativeToolTip": "Models\\Authenticate\\LoginUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T01:40:58.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SupabaseService.cs",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Services\\SupabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\SupabaseService.cs",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Services\\SupabaseService.cs",
+              "RelativeToolTip": "Services\\SupabaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T01:31:03.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HK2TProject_HotelManage_Server",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\HK2TProject_HotelManage_Server.csproj",
+              "RelativeDocumentMoniker": "HK2TProject_HotelManage_Server.csproj",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\HK2TProject_HotelManage_Server.csproj",
+              "RelativeToolTip": "HK2TProject_HotelManage_Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-01T08:07:26.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Services\\Users\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Users\\IUserService.cs",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Services\\Users\\IUserService.cs",
+              "RelativeToolTip": "Services\\Users\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:07:28.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Services\\Users\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Users\\UserService.cs",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Services\\Users\\UserService.cs",
+              "RelativeToolTip": "Services\\Users\\UserService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T07:07:22.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:59:11.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAkwGkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:58:57.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-01T06:41:51.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConfigurationManager.cs",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\ConfigurationManager.cs",
+              "RelativeDocumentMoniker": "ConfigurationManager.cs",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\ConfigurationManager.cs",
+              "RelativeToolTip": "ConfigurationManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:33:29.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:26:15.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Cache\\ICacheService.cs",
+              "RelativeDocumentMoniker": "Cache\\ICacheService.cs",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Cache\\ICacheService.cs",
+              "RelativeToolTip": "Cache\\ICacheService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:26:06.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConnectionHelper.cs",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Cache\\ConnectionHelper.cs",
+              "RelativeDocumentMoniker": "Cache\\ConnectionHelper.cs",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Cache\\ConnectionHelper.cs",
+              "RelativeToolTip": "Cache\\ConnectionHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:25:44.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Cache\\CacheService.cs",
+              "RelativeDocumentMoniker": "Cache\\CacheService.cs",
+              "ToolTip": "D:\\VS Solution Repo\\HK2T_HotelManageApp\\HK2T_HotelMangeApp\\Cache\\CacheService.cs",
+              "RelativeToolTip": "Cache\\CacheService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T06:25:17.183Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
